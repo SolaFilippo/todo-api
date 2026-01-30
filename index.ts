@@ -1,7 +1,7 @@
 import express from 'express'
 import router from './src/router'
 
-// user -> { id: uuid(), email: string, password: string }
+// user -> { id: uuid(), email: string, password: string } 
 // bycrypt -> https://www.npmjs.com/package/bcrypt
 // token -> https://www.npmjs.com/package/jsonwebtoken
 

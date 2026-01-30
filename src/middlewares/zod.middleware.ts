@@ -19,3 +19,4 @@ const zodErrorBuilderHelper = (err: z.ZodError) => {
     const messageError = JSON.parse(err.message)
     return messageError.map((i: any) => i.path).join(", ")
 }
+
